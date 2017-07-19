@@ -25,3 +25,6 @@ If you want to contribute to this project, feel free to email me at ...
 ## Bugs List
 The following problems need to be addressed: 
 * The whole thing. 
+![Canadian Flag](/img/Canada-Flag-5.jpg)
+
+
