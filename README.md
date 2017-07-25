@@ -7,7 +7,7 @@ This is where I will tell you how I built my project -- including pictures and w
 ## Installation Instructions
 This is where I will tell you how to install the .ino code -- it's pretty straightforward.
 
-### Menu Functions
+### Menu Functions Code
 void menuDraw(int cursX, int cursY){
   lcd.setCursor (cursorX, cursorY);
   lcd.print(" "); //Erase Old Cursor Position
@@ -144,7 +144,7 @@ void menuChange(byte level){
   menuLevelSwitch();
 
 }
-## Eeprom info
+## Eeprom info and Code
 
 void patchWrite(byte patchNum)
 {
