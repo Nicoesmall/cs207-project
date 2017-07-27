@@ -145,13 +145,6 @@ void menuChange(byte level){
 
 }
 ## Raw.ino
-/**********************************************************************
- *                 NaV-1 Arduino Soundgin Synth V1.0                  *
- *               Visit - notesandvolts.com for tutorial               *
- *                                                                    *
- *               Requires Arduino Version 1.0 or Later                *
- **********************************************************************/
-
 #include <SoftwareSerial.h>
 #include <MIDI.h>
 #include <LiquidCrystal.h>
@@ -354,8 +347,9 @@ void loop() // Main Loop
   menu(); // Check state of Rotary Encoder and Buttons - Update LCD
 }
 
+
 ## Raw.ino
-// Raw Edit Mode - **For development only**
+// Raw Edit Mode - 
 void rawEdit(){ 
 
   if (eventType == REFRESH){
@@ -449,6 +443,8 @@ void rawCurs(int pos, byte cursType){
     lcd.print(patch[pos + oscOffset]);
   }
 }
+
+
 
 ## Soundgin.ino
 // Soundgin and MIDI functions
@@ -574,6 +570,8 @@ void release(){
   //soundgin.write(27); //Soundgin Command
   //soundgin.write(119); //Mix B
 }
+
+
 
 
 ## User_ Interface.ino
@@ -1329,12 +1327,6 @@ void adsrSet(byte x, byte y, byte param, boolean byteHigh, byte offset){
 
 
 ## NaV1_V1_master
-/**********************************************************************
- *                 NaV-1 Arduino Soundgin Synth V1.0                  *
- *               Visit - notesandvolts.com for tutorial               *
- *                                                                    *
- *               Requires Arduino Version 1.0 or Later                *
- **********************************************************************/
 
 #include <SoftwareSerial.h>
 #include <MIDI.h>
