@@ -1,6 +1,6 @@
 
-# cs207-project
-NaV-1 Arduino Synthesizer
+# CS207 Theremin-project
+Arduino Theremin
 
 ## Configuration Instructions
 This is where I will tell you how I built my project -- including pictures and whatnot!
