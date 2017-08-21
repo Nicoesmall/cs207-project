@@ -1,9 +1,12 @@
 
 # CS207 Theremin-project
-Arduino Theremin
+Arduino based Theremin
 
-## Configuration Instructions
-This is where I will tell you how I built my project -- including pictures and whatnot!
+## How it works
+The Arduino based Theremin is a ultrasonic frequency  which generates a radio wave and  gives out the frequency signal to the Arduino board.
+An ultrasonic range finder connected to the Arduino board, and the code provides the Theremin effect when a person or some conductive material is placed next to the ultrasonic range finder.
+This leads to a slight frequency deviation of the frequency which is registered by the Arduino software.
+The Arduino acts in this case as a accurate frequency meter which transforms this frequency deviation into sound or control signals. 
 
 ## Installation Instructions
 This is where I will tell you how to install the .ino code -- it's pretty straightforward.
@@ -71,48 +74,32 @@ void loop()
 
 long microsecondsToInches(long microseconds)
 {
-  // According to Parallax's datasheet for the PING))), there are
-  // 73.746 microseconds per inch (i.e. sound travels at 1130 feet per
-  // second).  This gives the distance travelled by the ping, outbound
-  // and return, so we divide by 2 to get the distance of the obstacle.
-  // See: http://www.parallax.com/dl/docs/prod/acc/28015-PING-v1.3.pdf
-  return microseconds / 74 / 2;
 }
 
 long microsecondsToCentimeters(long microseconds)
 {
-  // The speed of sound is 340 m/s or 29 microseconds per centimeter.
-  // The ping travels out and back, so to find the distance of the
-  // object we take half of the distance travelled.
-  return microseconds / 29 / 2;
 }
 
 
 ## Manifest
 * README.md -- this file
-* hello.ino -- the hello world "blink" file for testing
+* arduino based theremin user's manual
 * img -- directory where images are stored
 
 ## Copyright Notice
 This project is liscensed under the MIT liscense. 
 
 ## Credits / Aknowledgements 
-This is where I will tell you where I got source code from. 
-Thanks to (...) for helping...
 
    http://www.arduino.cc/en/Tutorial/Ping
    
-   created 3 Nov 2008
-   by David A. Mellis
-   modified 30 Aug 2011
-   by Tom Igoe 
+   http://www.arduino.cc/en/Tutorial/TonePitchFollower?from=Tutorial.Tone2
 
 ## Contact
-If you want to contribute to this project, feel free to email me at ...
+Email jadelov416@gmail.com
 
 ## Bugs List
-The following problems need to be addressed: 
-* The whole thing. 
 
+* Needs more variety on tones and some upgrades.
   
   
