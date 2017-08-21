@@ -1,10 +1,6 @@
 Arduino based theremin 
 user’s manual
 
-
-
-
-
 Contents
 
 Getting started ………………………………………page 1.
@@ -19,38 +15,18 @@ Schematic ……………………………………………page 5.
 
 Installing code ……………………………………….page 6.
 
-
-
-
-
-
-
-
-
-
 by Nicole Small
 
 
 
 How it works
-
-
-
 	
 	The Arduino based Theremin is a ultrasonic frequency  which generates a radio wave and  gives out the frequency signal to the Arduino board.
 An ultrasonic range finder connected to the Arduino board, and the code provides the Theremin effect when a person or some conductive material is placed next to the ultrasonic range finder.
 This leads to a slight frequency deviation of the frequency which is registered by the Arduino software.
 The Arduino acts in this case as a accurate frequency meter which transforms this frequency deviation into sound or control signals. 
 
-
-
-
-
-
-
 Hardware
-
-
 
 Arduino uno
 Piezo element
@@ -61,96 +37,6 @@ Hook-up wires
 8EN136B5B Ultrasonic range finder
 Power
 
-
-
-
-
-
-
-
-
-
-
-											page 1.
-
-
-
-
-
-
-
-Arduino Uno	                             Ultrasonic Range Finder
-
-
-
-
-
-
-
-
-
-
-
-
-
-Resistor						Piezo Element
-
-
-
-
-
-                                                                          					page 2.
-
-
-
-
-
-
-
-		Power
-
-
-
-
-
-
-Hook-up wires
-
-Breadboad
-
-											
-											page 3.
-Setup
-page 4.
-
-
-Schematic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-page 5.
 
 
 Code
